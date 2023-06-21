@@ -1,0 +1,27 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #373a3c;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+/*sidebar*/
+
+#sidebar{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background: rgb(65, 65, 139);
+}
+#sidebar h1{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
