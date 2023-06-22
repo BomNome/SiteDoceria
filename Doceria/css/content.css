@@ -1,0 +1,38 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #373a3c;
+}
+
+/*Content*/
+.content{
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+.content h1, .content h2{
+    color: #006599;
+    margin-bottom: 30px;
+}
+.content h1{
+    font-size: 48px;
+}
+.content h2{
+    font-size: 35px;
+}
+section{
+    padding-left: 50px;
+}
+
+/*Sessão Bem Vindo*/
+#sessao-bemvindo{
+    padding-left: 0;
+}
+#sessao-bemvindo .banner{
+    height: 500px;
+    background-image: url(../img/banner2.jpg);
+    position: center;
+    background-size: cover;
+}
+#sessao-bemvindo h1{
+    margin-top: 70px;
+}
